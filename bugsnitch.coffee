@@ -24,6 +24,7 @@ serviceVersion = "0.0.0"
 ############################################################
 export initialize = (c) ->
     log "initialize"
+    return
     if c.snitchSocket then socketPath = c.snitchSocket
     if c.name then serviceName = c.name
     if c.version then serviceVersion = c.version
